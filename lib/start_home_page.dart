@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class StartHomePage extends StatefulWidget {
-  const StartHomePage({Key? key, required this.title}) : super(key: key);
+  const StartHomePage({Key key, @required this.title}) : super(key: key);
   final String title;
 
   @override
